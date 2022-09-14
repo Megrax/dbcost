@@ -23,9 +23,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "14.x"
+          
+      - name: Test
+        run: |
+          pwd
+          npm install
 
       - name: Install dependencies
-        run: pnpm install
+        uses: bahmutov/npm-install@v1
 
       - name: Restore next build
         uses: actions/cache@v2
