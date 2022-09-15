@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@radix-ui/react-tooltip': ^1.0.0
+  '@types/lodash': ^4.14.185
   '@types/node': 17.0.35
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.5
@@ -9,6 +10,7 @@ specifiers:
   eslint: 8.23.0
   eslint-config-next: 12.2.5
   eslint-config-prettier: ^8.5.0
+  lodash: ^4.17.21
   next: latest
   nextjs-bundle-analysis: ^0.4.0
   postcss: ^8.4.14
@@ -19,12 +21,14 @@ specifiers:
 
 dependencies:
   '@radix-ui/react-tooltip': 1.0.0_ohobp6rpsmerwlq5ipwfh5yigy
+  lodash: 4.17.21
   next: 12.3.0_ef5jwxihqo6n7gxfmzogljlgcm
   nextjs-bundle-analysis: 0.4.0
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
 
 devDependencies:
+  '@types/lodash': 4.14.185
   '@types/node': 17.0.35
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.5
@@ -509,6 +513,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/lodash/4.14.185:
+    resolution: {integrity: sha512-evMDG1bC4rgQg4ku9tKpuMh5iBNEwNa3tf9zRHdP1qlv+1WUg44xat4IxCE14gIpZRGUUWAx2VhItCZc25NfMA==}
     dev: true
 
   /@types/node/17.0.35:
