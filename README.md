@@ -4,6 +4,9 @@
 
 ## Background
 
+
+
+
 The market lacks a tool for developers to compare different database products before making a final decision. A site, where all available RDS's performance and cost can be demonstrated, is highly wanted.
 
 ## Tech Stack (at least this is expected)
